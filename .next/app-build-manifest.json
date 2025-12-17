@@ -12,9 +12,9 @@
       "static/chunks/fd9d1056-dfc0d8741092951e.js",
       "static/chunks/23-5e5c16d7e6d74be7.js",
       "static/chunks/main-app-f0f3a72d4dbb2710.js",
-      "static/css/7d6f6e25bfdcf1af.css",
+      "static/css/04bf170252479922.css",
       "static/chunks/231-af16b331604c219a.js",
-      "static/chunks/app/layout-7c833a11843b8472.js"
+      "static/chunks/app/layout-c945f6ec14ddca64.js"
     ],
     "/hizmet-bolgeleri/[yaka]/page": [
       "static/chunks/webpack-7a3f672706b56f43.js",
@@ -22,7 +22,14 @@
       "static/chunks/23-5e5c16d7e6d74be7.js",
       "static/chunks/main-app-f0f3a72d4dbb2710.js",
       "static/chunks/231-af16b331604c219a.js",
-      "static/chunks/app/hizmet-bolgeleri/[yaka]/page-76de479e0f2bf992.js"
+      "static/chunks/app/hizmet-bolgeleri/[yaka]/page-af1df9bbf3a4c162.js"
+    ],
+    "/iletisim/page": [
+      "static/chunks/webpack-7a3f672706b56f43.js",
+      "static/chunks/fd9d1056-dfc0d8741092951e.js",
+      "static/chunks/23-5e5c16d7e6d74be7.js",
+      "static/chunks/main-app-f0f3a72d4dbb2710.js",
+      "static/chunks/app/iletisim/page-22139b5c5d83c1c7.js"
     ],
     "/page": [
       "static/chunks/webpack-7a3f672706b56f43.js",
@@ -30,38 +37,7 @@
       "static/chunks/23-5e5c16d7e6d74be7.js",
       "static/chunks/main-app-f0f3a72d4dbb2710.js",
       "static/chunks/231-af16b331604c219a.js",
-      "static/chunks/app/page-61cd80bf32309370.js"
-    ],
-    "/iletisim/page": [
-      "static/chunks/webpack-7a3f672706b56f43.js",
-      "static/chunks/fd9d1056-dfc0d8741092951e.js",
-      "static/chunks/23-5e5c16d7e6d74be7.js",
-      "static/chunks/main-app-f0f3a72d4dbb2710.js",
-      "static/chunks/app/iletisim/page-a457507842b96598.js"
-    ],
-    "/hizmet-bolgeleri/page": [
-      "static/chunks/webpack-7a3f672706b56f43.js",
-      "static/chunks/fd9d1056-dfc0d8741092951e.js",
-      "static/chunks/23-5e5c16d7e6d74be7.js",
-      "static/chunks/main-app-f0f3a72d4dbb2710.js",
-      "static/chunks/231-af16b331604c219a.js",
-      "static/chunks/app/hizmet-bolgeleri/page-3cb03f37e6d2351d.js"
-    ],
-    "/hakkimizda/page": [
-      "static/chunks/webpack-7a3f672706b56f43.js",
-      "static/chunks/fd9d1056-dfc0d8741092951e.js",
-      "static/chunks/23-5e5c16d7e6d74be7.js",
-      "static/chunks/main-app-f0f3a72d4dbb2710.js",
-      "static/chunks/231-af16b331604c219a.js",
-      "static/chunks/app/hakkimizda/page-97bc78ebb4113ab9.js"
-    ],
-    "/hizmet-bolgeleri/[yaka]/[ilce]/page": [
-      "static/chunks/webpack-7a3f672706b56f43.js",
-      "static/chunks/fd9d1056-dfc0d8741092951e.js",
-      "static/chunks/23-5e5c16d7e6d74be7.js",
-      "static/chunks/main-app-f0f3a72d4dbb2710.js",
-      "static/chunks/231-af16b331604c219a.js",
-      "static/chunks/app/hizmet-bolgeleri/[yaka]/[ilce]/page-9fc93cc4c462743d.js"
+      "static/chunks/app/page-73f38b6661164968.js"
     ],
     "/hizmetlerimiz/page": [
       "static/chunks/webpack-7a3f672706b56f43.js",
@@ -69,7 +45,31 @@
       "static/chunks/23-5e5c16d7e6d74be7.js",
       "static/chunks/main-app-f0f3a72d4dbb2710.js",
       "static/chunks/231-af16b331604c219a.js",
-      "static/chunks/app/hizmetlerimiz/page-dc4a0f40c5d03c0d.js"
+      "static/chunks/app/hizmetlerimiz/page-4499cc44405b99d8.js"
+    ],
+    "/hakkimizda/page": [
+      "static/chunks/webpack-7a3f672706b56f43.js",
+      "static/chunks/fd9d1056-dfc0d8741092951e.js",
+      "static/chunks/23-5e5c16d7e6d74be7.js",
+      "static/chunks/main-app-f0f3a72d4dbb2710.js",
+      "static/chunks/231-af16b331604c219a.js",
+      "static/chunks/app/hakkimizda/page-28a796cdc5562d22.js"
+    ],
+    "/hizmet-bolgeleri/page": [
+      "static/chunks/webpack-7a3f672706b56f43.js",
+      "static/chunks/fd9d1056-dfc0d8741092951e.js",
+      "static/chunks/23-5e5c16d7e6d74be7.js",
+      "static/chunks/main-app-f0f3a72d4dbb2710.js",
+      "static/chunks/231-af16b331604c219a.js",
+      "static/chunks/app/hizmet-bolgeleri/page-3b0eb4de20fabfd4.js"
+    ],
+    "/hizmet-bolgeleri/[yaka]/[ilce]/page": [
+      "static/chunks/webpack-7a3f672706b56f43.js",
+      "static/chunks/fd9d1056-dfc0d8741092951e.js",
+      "static/chunks/23-5e5c16d7e6d74be7.js",
+      "static/chunks/main-app-f0f3a72d4dbb2710.js",
+      "static/chunks/231-af16b331604c219a.js",
+      "static/chunks/app/hizmet-bolgeleri/[yaka]/[ilce]/page-fcc7710eb4aacc8a.js"
     ]
   }
 }

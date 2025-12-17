@@ -17,11 +17,16 @@ const Header = () => {
           <Link href="/hizmetlerimiz" className="text-gray-700 hover:text-blue-600 transition-colors">Hizmetlerimiz</Link>
           <Link href="/hizmet-bolgeleri" className="text-gray-700 hover:text-blue-600 transition-colors">Hizmet Bölgeleri</Link>
           <Link href="/hakkimizda" className="text-gray-700 hover:text-blue-600 transition-colors">Hakkımızda</Link>
-          <Link href="/iletisim" className="bg-yellow-400 text-blue-900 font-bold py-2 px-5 rounded-full hover:bg-yellow-300 transition-all duration-300 transform hover:scale-105">
+          <Link href="/iletisim" className="bg-yellow-500 text-white font-bold py-2 px-5 rounded-full hover:bg-yellow-600 transition-all duration-300 transform hover:scale-105">
             İletişim
           </Link>
         </nav>
-        <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+        <button 
+          className="md:hidden" 
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          aria-label="Menüyü aç"
+          aria-expanded={isMenuOpen}
+        >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
           </svg>

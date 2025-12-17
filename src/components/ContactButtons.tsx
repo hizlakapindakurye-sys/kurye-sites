@@ -21,8 +21,9 @@ const ContactButtons = ({
         href={`https://wa.me/${whatsappNumber.replace(/\D/g, '')}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-green-400 to-green-600 text-white rounded-full shadow-2xl hover:bg-green-700 hover:shadow-2xl transform hover:scale-110 active:scale-95 transition-all duration-300 relative group border-4 border-white"
+        className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-green-500 to-green-700 text-white rounded-full shadow-2xl hover:bg-green-800 hover:shadow-2xl transform hover:scale-110 active:scale-95 transition-all duration-300 relative group border-4 border-white"
         title="WhatsApp'ta Bize Yazın"
+        aria-label="WhatsApp ile bize yazın"
       >
         <div className="absolute inset-0 bg-green-500 rounded-full animate-pulse-ring opacity-20"></div>
         <svg
@@ -38,8 +39,9 @@ const ContactButtons = ({
       {/* Phone Button - Always Visible */}
       <a
         href={`tel:${phoneNumber}`}
-        className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-600 text-white rounded-full shadow-2xl hover:bg-blue-700 hover:shadow-2xl transform hover:scale-110 active:scale-95 transition-all duration-300 relative group border-4 border-white"
+        className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-full shadow-2xl hover:bg-blue-800 hover:shadow-2xl transform hover:scale-110 active:scale-95 transition-all duration-300 relative group border-4 border-white"
         title="Bizi Arayın"
+        aria-label="Telefon ile bizi arayın"
       >
         <div className="absolute inset-0 bg-blue-500 rounded-full animate-pulse-ring opacity-20"></div>
         <svg
