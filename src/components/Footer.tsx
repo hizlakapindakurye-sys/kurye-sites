@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
 // Dummy Social Icons
-const SocialIcon = ({ children, href }: { children: React.ReactNode, href: string }) => (
-  <a href={href} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-green-400 transition-colors">
+const SocialIcon = ({ children, href, label }: { children: React.ReactNode, href: string, label: string }) => (
+  <a href={href} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-green-400 transition-colors" aria-label={label}>
     {children}
   </a>
 );
@@ -24,7 +24,7 @@ const Footer = () => {
             <h3 className="text-2xl font-bold text-blue-500 mb-4">Hızla Kapında Kurye</h3>
             <p className="text-gray-400 max-w-md">İstanbul'un her yerine hızlı, güvenilir ve profesyonel kurye hizmetleri sunarak gönderilerinizi zamanında ulaştırıyoruz.</p>
              <div className="flex space-x-4 mt-6">
-              <SocialIcon href="https://wa.me/905452145949"><WhatsAppIcon /></SocialIcon>
+              <SocialIcon href="https://wa.me/905452145949" label="WhatsApp ile bize yazın"><WhatsAppIcon /></SocialIcon>
             </div>
           </div>
 
