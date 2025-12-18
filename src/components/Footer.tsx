@@ -43,9 +43,9 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">İletişim</h3>
             <ul className="space-y-3 text-gray-400">
-              <li>Adres: Örnek Mah. No:1, İstanbul</li>
+              <li>Adres: Gülbahar Mah. Şişli İstanbul</li>
               <li>Telefon: 0545 214 59 49</li>
-              <li>Email: info@kuryeapp.com</li>
+              <li>Email: hizlakapindakurye@gmail.com</li>
             </ul>
           </div>
 
