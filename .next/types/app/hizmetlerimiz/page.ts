@@ -1,4 +1,4 @@
-// File: /home/ekose/Desktop/kurye/kurye-app/src/app/hizmetlerimiz/page.tsx
+// File: /Users/ekose/Desktop/kurye/src/app/hizmetlerimiz/page.tsx
 import * as entry from '../../../../src/app/hizmetlerimiz/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
