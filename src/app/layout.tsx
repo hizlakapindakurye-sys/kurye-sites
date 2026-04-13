@@ -81,6 +81,25 @@ export default function RootLayout({
             `,
           }}
         />
+        {/* Event snippet for İletişim conversion */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.gtag_report_conversion = function(url) {
+                var callback = function () {
+                  if (typeof(url) != 'undefined') {
+                    window.location = url;
+                  }
+                };
+                gtag('event', 'conversion', {
+                    'send_to': 'AW-18087763288/SUCNCIr30ZscENi69bBD',
+                    'event_callback': callback
+                });
+                return false;
+              };
+            `,
+          }}
+        />
       </head>
       <body className={`${poppins.className} bg-gray-50`}>
         <Header />

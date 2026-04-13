@@ -1,8 +1,8 @@
 "use client";
 
-import React from 'react';
-import WhatsAppIcon from '@/components/icons/WhatsAppIcon';
-import PhoneIcon from '@/components/icons/PhoneIcon';
+import React from "react";
+import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
+import PhoneIcon from "@/components/icons/PhoneIcon";
 
 interface ContactButtonsProps {
   phoneNumber?: string;
@@ -13,12 +13,23 @@ const ContactButtons = ({
   phoneNumber = "+905452145949",
   whatsappNumber = "+905452145949",
 }: ContactButtonsProps) => {
+  const handleContactClick = (url: string) => {
+    // Trigger Google Ads conversion
+    if (typeof (window as any).gtag_report_conversion === "function") {
+      (window as any).gtag_report_conversion(url);
+    }
+  };
 
   return (
     <div className="fixed bottom-6 right-6 flex flex-col gap-4 z-40 items-end">
       {/* WhatsApp Button - Always Visible */}
       <a
-        href={`https://wa.me/${whatsappNumber.replace(/\D/g, '')}`}
+        href={`https://wa.me/${whatsappNumber.replace(/\D/g, "")}`}
+        onClick={() =>
+          handleContactClick(
+            `https://wa.me/${whatsappNumber.replace(/\D/g, "")}`,
+          )
+        }
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-green-500 to-green-700 text-white rounded-full shadow-2xl hover:bg-green-800 hover:shadow-2xl transform hover:scale-110 active:scale-95 transition-all duration-300 relative group border-4 border-white"
@@ -39,6 +50,7 @@ const ContactButtons = ({
       {/* Phone Button - Always Visible */}
       <a
         href={`tel:${phoneNumber}`}
+        onClick={() => handleContactClick(`tel:${phoneNumber}`)}
         className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-full shadow-2xl hover:bg-blue-800 hover:shadow-2xl transform hover:scale-110 active:scale-95 transition-all duration-300 relative group border-4 border-white"
         title="Bizi Arayın"
         aria-label="Telefon ile bizi arayın"
